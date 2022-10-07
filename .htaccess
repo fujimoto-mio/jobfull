@@ -1,0 +1,5 @@
+SetEnvIf Request_URI ".*" Ngx_Cache_NoCacheMode=off
+SetEnvIf Request_URI ".*" Ngx_Cache_AllCacheMode
+
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
