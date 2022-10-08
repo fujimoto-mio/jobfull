@@ -2969,7 +2969,7 @@ font-size: 65px;
 	transform: translate(-50%, -40%);
 	width: 10em;
 	height: 3em;
-	background: url('assets/img/difference_subttl.png') no-repeat center top /contain;
+	background: url('./img/difference_subttl.png') no-repeat center top /contain;
 	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
@@ -3298,6 +3298,12 @@ font-size: 65px;
 }
 .lp2 .fv-txt {
 	font-size: 2.5em;
+	font-weight: 500;
+	color: #424242;
+	margin: 1.7em 0 0;
+}
+.lp2 .sp-txt {
+	font-size: 2em;
 	font-weight: 500;
 	color: #424242;
 	margin: 1.7em 0 0;
