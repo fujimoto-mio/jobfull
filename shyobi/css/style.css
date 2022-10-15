@@ -168,8 +168,9 @@ header .h-inner .btn-contact a {
 .btn--cta1{
 	background: linear-gradient(94.59deg, #06C755 4.96%, #4CC764 100%);
 	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+	border-radius: 20px;
 	color: #fff;
+	font-weight: bold;
 	padding:14px 20px;
 	line-height: 1 !important;
 }
@@ -310,6 +311,14 @@ footer p.copy {
 	vertical-align: bottom;
 }
 
+.line-area {
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	padding: 30px 0 30px 0;
+	color: #fff;
+}
+
 .cv-area {
 	background: url(../img/bg_soudan.jpg) no-repeat 0 0;
 	background-size: cover;
@@ -360,11 +369,20 @@ footer p.copy {
 
 .nayami {
 	padding: 80px 0 0 0;
-	background-image: url(../img/bg_nayami01.png), url(../img/bg_nayami02.png);
-	background-position: top left , bottom right;
+	background-image: url(../img/lp2_point_bg1_1.png?3);
+	background-position: top right;
 	background-repeat: no-repeat, no-repeat;
 	background-color: #EAF1F1;
 }
+/*
+.nayami {
+	padding: 80px 0 0 0;
+	background-image: url(../img/lp2_point_bg1_1.png), url(../img/lp2_point_bg1_1.png);
+	background-position: top right , bottom right;
+	background-repeat: no-repeat, no-repeat;
+	background-color: #EAF1F1;
+}
+*/
 .nayami .sub-t {
 	margin-bottom: 36px;
 }
@@ -420,7 +438,7 @@ footer p.copy {
 
 .point {
 	padding: 80px 0 90px 0;
-	background: url(../img/bg_point.png) no-repeat 50% 50%;
+	background: url(../img/bg_point.png?1) no-repeat 50% 50%;
 	background-size: cover;
 }
 .point h2 {
@@ -1348,7 +1366,7 @@ footer p.copy {
 #cv-fixed{
 	display: none;
 }
-#cv-fixed.fixed_btm{
+#cv-fixed.fixed_btm {
 	display: block;
 	width: 100%;
 	position: fixed;
@@ -1894,7 +1912,10 @@ footer p.copy {
 		background-size: 85%;
 	}
 
-	.cv-area {
+	.line-area {
+		font-size: 20px;
+	}
+	.cv-area  .line-area {
 		padding: 40px 10px 30px;
 	}
 	.cv-area p {
@@ -3088,9 +3109,14 @@ font-size: 65px;
 .sitelink .comparison-content {
 	padding: 4em 2em;
 }
-.sitelink .cv-area h2 span {
+.sitelink .cv-area .line-area h2 span {
 	display: block;
 }
+
+.line-area {
+	font-size: 20px;
+}
+
 .sitelink .hikaku-wrap {
 	width: 100%;
 	display: none;
@@ -3376,7 +3402,7 @@ font-size: 65px;
 	font-size: 1.8em;
 	padding: 0;
 	font-weight: bold;
-	background: url('assets/img/lp2_point_check.png') no-repeat left center / cover;
+	background: url('./img/lp2_point_check.png') no-repeat left center / cover;
 	box-shadow: 0 .2em .4em 0 rgba(0, 0, 0, .1);
 	border-radius: .33em;
 	width: 100%;
@@ -3613,7 +3639,7 @@ font-size: 65px;
 		position: absolute;
 		top: 0;
 		left: 0;
-		background: url('../img/lp2_point_bg1.png') no-repeat left top / contain;
+		background: url('../img/lp2_point_bg1.png?2') no-repeat left top / contain;
 		width: 32.1em;
 		height: 9.8em;
 		z-index: -1;
@@ -3623,7 +3649,7 @@ font-size: 65px;
 		position: absolute;
 		bottom: 0;
 		right: 0;
-		background: url('../img/lp2_point_bg2.png') no-repeat left top / contain;
+		background: url('../img/lp2_point_bg3.png?2') no-repeat left top / contain;
 		width: 15em;
 		height: 12.3em;
 		z-index: -1;
