@@ -369,7 +369,7 @@ footer p.copy {
 
 .nayami {
 	padding: 80px 0 0 0;
-	background-image: url(../img/lp2_point_bg1_1.png?3);
+	background-image: url(../img/lp2_point_bg1_1.png?5);
 	background-position: top right;
 	background-repeat: no-repeat, no-repeat;
 	background-color: #EAF1F1;
@@ -438,7 +438,7 @@ footer p.copy {
 
 .point {
 	padding: 80px 0 90px 0;
-	background: url(../img/bg_point.png?1) no-repeat 50% 50%;
+	background: url(../img/bg_point.png?2) no-repeat 50% 50%;
 	background-size: cover;
 }
 .point h2 {
@@ -3649,7 +3649,7 @@ font-size: 65px;
 		position: absolute;
 		bottom: 0;
 		right: 0;
-		background: url('../img/lp2_point_bg3.png?2') no-repeat left top / contain;
+		background: url('../img/lp2_point_bg2.png?4') no-repeat left top / contain;
 		width: 15em;
 		height: 12.3em;
 		z-index: -1;
