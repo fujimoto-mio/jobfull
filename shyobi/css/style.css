@@ -391,7 +391,7 @@ footer p.copy {
 	margin-left: auto;
     margin-right: 0;
     height: 0px;
-    width: 90px;
+    min-width: 14%;
 }
 
 .litext {
