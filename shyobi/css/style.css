@@ -383,6 +383,22 @@ footer p.copy {
 	background-color: #EAF1F1;
 }
 */
+.subtext {
+	font-size: 45%;
+	/*vertical-align: bottom;
+	position: relative;
+	top: 0.5em;*/
+	margin-left: auto;
+    margin-right: 0;
+    height: 0px;
+    width: 90px;
+}
+
+.litext {
+	margin-left: auto;
+    margin-right: 0;
+}
+
 .nayami .sub-t {
 	margin-bottom: 36px;
 }
@@ -3649,7 +3665,7 @@ font-size: 65px;
 		position: absolute;
 		bottom: 0;
 		right: 0;
-		background: url('../img/lp2_point_bg2.png?5') no-repeat left top / contain;
+		background: url('../img/lp2_point_bg3.png?7') no-repeat left top / contain;
 		width: 15em;
 		height: 12.3em;
 		z-index: -1;
