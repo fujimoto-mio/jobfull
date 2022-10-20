@@ -3541,6 +3541,11 @@ font-size: 65px;
 .lp2 .training-img {
 	width: 70em;
 }
+.car-img {
+	display:contents;
+	width:600px;
+	margin:0 auto;
+}
 .lp2 .training-img img { 
 	box-shadow: 0 .5em 1em 0 rgba(0, 0, 0, .1);
 }
