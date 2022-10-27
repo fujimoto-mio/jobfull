@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+}
+
+.cv_area {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+a.cv_btn {
+    position: fixed;
+    display: block;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 480px;
+    z-index: 9999;
+}
+
+.wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+
+.wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+section.review {
+    position: relative;
+    overflow: hidden;
+}
+
+.review_slide {
+    background: #dd4f4e;
+    padding-bottom: 15%;
+}
+
+.message_slide {
+    background: #000;
+	padding: 10px 0;
+}
+
+.swiper-pagination {
+    bottom: 10%!important;
+}
+
+.message .swiper-pagination {
+    bottom: -13%!important;
+}
+
+span.swiper-pagination-bullet {
+    background: #fff!important;
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px 0 27%;
+    color: #fff;
+}
