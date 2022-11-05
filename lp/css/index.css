@@ -64,3 +64,64 @@ footer {
     padding: 20px 0 27%;
     color: #fff;
 }
+
+/* line */
+.btn--cta1{
+	background: linear-gradient(94.59deg, #06C755 4.96%, #4CC764 100%);
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	color: #fff;
+	font-weight: bold;
+	padding:14px 20px;
+	line-height: 1 !important;
+}
+.btn--cta1 span{
+	background: #fbff4b;
+	color: #f78903;
+	margin-right: 8px;
+	border-radius: 8px;
+	padding: 1px 5px;
+	font-size: .9em;
+}
+.btn--cta1:hover{
+	opacity: 0.8;
+	color: #fff;
+	text-decoration: none;
+}
+.btn--cta1{
+	display: inline-block;
+	font-size: 2.5rem;
+	padding: 1.5rem 2rem;
+}
+.btn--cta1{
+	display: inline-block;
+	padding: 2.2rem 6rem;
+}
+.cv-area .btn--cta1 {
+    display: inline-block;
+    font-size: 4.5vw !important;
+    padding: 5vw 0 !important;
+    width: 90% !important;
+}
+
+
+.line-area {
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	padding: 30px 0 30px 0;
+	color: #fff;
+}
+.line-area {
+    font-size: 20px;
+}
+.cv-area  .line-area {
+    padding: 40px 10px 30px;
+}
+.sitelink .cv-area .line-area h2 span {
+	display: block;
+}
+.line-area {
+	font-size: 16px;
+}
+/*end-line  */
