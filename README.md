@@ -1,5 +1,5 @@
 # Jobfull_LP
-https://job-full.net
+https://jobfull-inc.com
 
 test
 levelfr.html.xdomain.jp
