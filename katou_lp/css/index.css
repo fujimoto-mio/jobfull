@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+}
+
+.cv_area {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+a.cv_btn {
+    position: fixed;
+    display: block;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 480px;
+    z-index: 9999;
+}
+
+.wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+
+.wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+section.review {
+    position: relative;
+    overflow: hidden;
+}
+
+.review_slide {
+    background: #ff7f26;
+    padding-bottom: 15%;
+}
+
+.message_slide {
+    background: #000;
+	padding: 10px 0;
+}
+
+.swiper-pagination {
+    bottom: 10%!important;
+}
+
+.message .swiper-pagination {
+    bottom: -13%!important;
+}
+
+span.swiper-pagination-bullet {
+    background: #fff!important;
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px 0 27%;
+    color: #fff;
+}
+
+
+/* sitebutton */
+a.btn_br {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1.5rem 3.0rem;
+    background-color: #DE9E3D;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a.btn_br span.bl__text {
+    display: block;
+    position: relative;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 30px;
+}
+a.btn_br span.bl__text:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+a.btn_br span.bl__text:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-top: 3px solid #DE9E3D;
+    border-right: 3px solid #DE9E3D;
+  box-sizing: border-box;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: 5px;
+    bottom: 0;
+    margin: auto;
+    transition: 0.3s;
+}
+a.btn_br:hover {
+    background-color: #FFB74A;
+}
+a.btn_br:hover span.bl__text:after {
+    border-top: 3px solid #FFB74A;
+    border-right: 3px solid #FFB74A;
+}
+@media (max-width: 736px) {
+    a.btn_br {
+        max-width: 280px;
+        padding: 1.5rem 2.0rem;
+    }
+    a.btn_br span.bl__text {
+        font-size: 14px;
+    }
+}
+/*sitebutton end*/
+/*company introduction_button*/
+
+a.btn_bl {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1.5rem 3.0rem;
+    background-color: #6CBCD5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a.btn_bl span.bl__text {
+    display: block;
+    position: relative;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 30px;
+}
+a.btn_bl span.bl__text:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+a.btn_bl span.bl__text:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-top: 3px solid #6CBCD5;
+    border-right: 3px solid #6CBCD5;
+  box-sizing: border-box;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: 5px;
+    bottom: 0;
+    margin: auto;
+    transition: 0.3s;
+}
+a.btn_bl:hover {
+    background-color: #87E2FF;
+}
+a.btn_bl:hover span.bl__text:after {
+    border-top: 3px solid #87E2FF;
+    border-right: 3px solid #87E2FF;
+}
+@media (max-width: 736px) {
+    a.btn_bl {
+        max-width: 280px;
+        padding: 1.5rem 2.0rem;
+    }
+    a.btn_bl span.bl__text {
+        font-size: 14px;
+    }
+}
+/*company introduction_button end*/
