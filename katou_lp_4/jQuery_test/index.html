@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>あなたにぴったりのブランド診断</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  </script>
+
+  <div class="choose_box">
+    <div class="app-theme">
+      <p></p>
+    </div>
+
+
+    <!-- ここから５つ質問を記述 -->
+    <!-- 質問1 -->
+    <div id="q_01" class="fit">
+      <p>　Q1:　あなたの普段の服装は？　</p>
+      <ul>
+        <li><a class="btn" href="#q_02" data-value="a">カジュアル</a></li>
+        <li><a class="btn" href="#q_02" data-value="b">フェミニン</a></li>
+        <li><a class="btn" href="#q_02" data-value="c">キレイめ</a></li>
+        <li><a class="btn" href="#q_02" data-value="d">エレガント</a></li>
+      </ul>
+    </div>
+
+    <!-- 質問2 -->
+    <div id="q_02" style="display: none;">
+      <p>Q2:　よく着る服の色は？</p>
+      <ul>
+        <li><a class="btn" href="#q_03" data-value="a">暖色系</a></li>
+        <li><a class="btn" href="#q_03" data-value="b">寒色系</a></li>
+        <li><a class="btn" href="#q_03" data-value="c">モノクロ</a></li>
+        <li><a class="btn" href="#q_03" data-value="d">パステルカラー</a></li>
+      </ul>
+    </div>
+
+    <!-- 質問3 -->
+    <div id="q_03" style="display: none;">
+      <p>Q3:　今欲しいアイテムは？</p>
+      <ul>
+        <li><a class="btn end" href="#q_04" data-value="a">お仕事でも使えるアイテム<!--（ウニサ）--></a></li>
+        <li><a class="btn end" href="#q_04" data-value="b">やっぱり、歩きやすさ重視<!--（ミオノティス）--></a></li>
+        <li><a class="btn end" href="#q_04" data-value="c">どんなファッションにも合う！<!--（ガイモ）--></a></li>
+        <li><a class="btn end" href="#q_04" data-value="d">まずは、色々アイテムが見たい！<!--（ボントレ）--></a></li>
+      </ul>
+    </div>
+
+
+    <!-- 回答の答え1 ウニサ-->
+    <div id="answer_01" class="result" style="display: none;">
+      <div class="result_theme ">
+        <p>あなたにぴったりのブランドは…</p>
+      </div>
+      <div class="result_type0 ">
+        <h4>UNISA(ウニサ)</h4>
+      </div>
+      <div class="result_discription0">
+        <p>国際的な知名度を誇るスペインシューズブランド。<br>ファッショナブルなキャリア女性をターゲットに<br>デザイン性と履き心地の良さを兼ね備えた<br>高品質な靴を提供しています。</p>
+      </div>
+      <div class="result_images">
+        <img src="images/unisa.png" alt="ウニサ" style="width: 100%;" />
+      </div>
+      <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+      </div>
+    </div>
+
+
+
+    <!-- 回答の答え2 ミオノティス-->
+    <div id="answer_02" style="display: none;">
+      <div class="result_theme ">
+        <p>あなたにぴったりのブランドは…</p>
+      </div>
+      <div class="result_type1">
+        <h4>MIONOTIS<br>（ミオ・ノティス）</h4>
+      </div>
+      <div class="result_discription1">
+        <p>ベーシックなアイテムに、色や素材使いでさりげなくトレンド感を落とし込んだレディースシューズブランド</p>
+      </div>
+      <div class="result_images">
+        <img src="images/mionotis_png.png" alt="ミオ・ノティス" style="width: 100%;" />
+      </div>
+      <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 回答の答え3 ガイモ-->
+  <div id="answer_03" style="display: none;">
+    <div class="result_theme ">
+      <p>あなたにぴったりのブランドは…</p>
+    </div>
+    <div class="result_type2 ">
+      <h4>GAIMO（ガイモ）</h4>
+    </div>
+    <div class="result_discription2">
+      <p>伝統工芸の技術とモダンデザインを融合させたスペインのブランド。ジュート麻がナチュラルな雰囲気を醸し出し、エレガントなシルエットが大人の魅力をアップさせる、個性的なエスパドリーユを発表しています。</p>
+    </div>
+    <div class="result_images">
+      <img src="images/gaimo_png.png" alt="ガイモ" style="width: 100%;" />
+    </div>
+    <div class="return-btn">
+      <a class="return" href="index.html">もどる</a>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- 回答の答え4 ボントレ-->
+  <div id="answer_04" style="display: none;">
+    <div class="result_theme ">
+      <p>あなたにぴったりのブランドは…</p>
+    </div>
+    <div class="result_type3 ">
+      <h4>BONTRE（ボントレ）</h4>
+    </div>
+    <div class="result_discription3">
+      <p>スペインでも有数の靴の町、エルチェで生まれ、1935年創業以来3世代に渡って継承してきた確かな技術でお届けする、老舗ファクトリーブランド。</p>
+    </div>
+    <div class="result_images">
+      <img src="images/bontre.png" alt="ガイモ" style="width: 100%;" />
+    </div>
+    <div class="return-btn">
+      <a class="return" href="index.html">もどる</a>
+    </div>
+  </div>
+
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
