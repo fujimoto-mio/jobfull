@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+	font-family: YuGothic, "Inter", "Hiragino Sans", Meiryo, "sans-serif";
 }
 
 .cv_area {
@@ -16,7 +16,7 @@ a.cv_btn {
     bottom: 0;
     margin: 0 auto;
     width: 100%;
-    max-width: 440px;
+    max-width: 480px;
     z-index: 9999;
 }
 
@@ -63,6 +63,7 @@ footer {
     text-align: center;
     padding: 20px 0 27%;
     color: #000000;
+    padding-bottom: 140px;
 }
 
 /* line */
@@ -154,7 +155,7 @@ footer {
 }
  .point-item-content .list li {
     position: relative;
-    font-size: 1.6em;
+    font-size: 1.5em;
     background: none;
     padding: 0;
     text-align:center;
@@ -181,7 +182,7 @@ footer {
     margin: 2.0em 0 0;
 }
  .point-item-content .txt span {
-    font-size: 0.9em;
+    font-size: 1.1em;
     line-height: 1.5;
      font-weight: bold;
 }
@@ -199,7 +200,7 @@ footer {
 }
 
 .car-img {
-    margin:0 60px 0 60px;
+    margin:0 30px 0 30px;
 }
 .image-center {
     display: block;
