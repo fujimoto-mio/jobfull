@@ -155,7 +155,7 @@ footer {
 }
  .point-item-content .list li {
     position: relative;
-    font-size: 1.5em;
+    font-size: 1.3em;
     background: none;
     padding: 0;
     text-align:center;
@@ -188,7 +188,7 @@ footer {
 }
 
 .txt_sp span {
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: 1.5;
     font-weight: bold;
 }
