@@ -118,7 +118,7 @@ img,canvas,iframe,video,svg{
 /* スマホ用 */
 @media screen and (max-width: 480px) {
 	*{
-		font-size:1.8rem;
+		font-size:1.3rem;
 	}
 	input,select,textarea{
 		font-size:1.6rem;
